@@ -525,6 +525,42 @@
       </td>
     </tr>
 
+    <tr onmouseout="facecap_stop()" onmouseover="facecap_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='facecap_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/facecap.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/facecap.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function facecap_start() {
+            document.getElementById('facecap_image').style.opacity = "1";
+          }
+
+          function facecap_stop() {
+            document.getElementById('facecap_image').style.opacity = "0";
+          }
+          facecap_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="http://dx.doi.org/10.1109/SVR.2019.00034">
+      <span class="papertitle">Real-Time Facial Motion Capture Using RGB-D Images Under Complex Motion and Occlusions
+</span>
+        </a>
+        <br>
+        João Otávio de Lucena,
+        <strong>João Paulo Lima</strong>,
+        <a href="https://scholar.google.com.br/citations?user=PYvmkT0AAAAJ&hl=pt-BR&oi=ao">Diego Thomas</a>,
+        <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
+
+        <br>
+        <em>SVR</em> 2019
+      </td>
+    </tr>
+
     </tbody></table>
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
