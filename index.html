@@ -749,6 +749,39 @@
       </td>
     </tr>
 
+    <tr onmouseout="gasd_stop()" onmouseover="gasd_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='gasd_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/gasd.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/gasd.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function gasd_start() {
+            document.getElementById('gasd_image').style.opacity = "1";
+          }
+
+          function gasd_stop() {
+            document.getElementById('gasd_image').style.opacity = "0";
+          }
+          gasd_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://doi.org/10.1109/SIBGRAPI.2016.017">
+      <span class="papertitle">An Efficient Global Point Cloud Descriptor for Object Recognition and Pose Estimation
+</span>
+        </a>
+        <br>        
+        <strong>João Paulo Lima</strong>,
+        <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
+        <br>
+        <em>SIBGRAPI</em> 2016
+      </td>
+    </tr>
+
     </tbody></table>
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
