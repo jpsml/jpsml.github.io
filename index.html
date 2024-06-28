@@ -672,7 +672,7 @@
       </td>
     </tr>
 
-    <tr onmouseout="cuboid_stop()" onmouseover="cuboid_start()" bgcolor="#ffffd0">
+    <tr onmouseout="cuboid_stop()" onmouseover="cuboid_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='cuboid_image'><video  width=100% height=100% muted autoplay loop>
@@ -707,6 +707,45 @@
         <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
         <br>
         <em>ECCVW</em> 2018
+      </td>
+    </tr>
+
+    <tr onmouseout="olivier_stop()" onmouseover="olivier_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='olivier_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/olivier.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/olivier.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function olivier_start() {
+            document.getElementById('olivier_image').style.opacity = "1";
+          }
+
+          function olivier_stop() {
+            document.getElementById('olivier_image').style.opacity = "0";
+          }
+          olivier_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://doi.org/10.1109/ICRA.2018.8460973">
+      <span class="papertitle">Live Structural Modeling using RGB-D SLAM
+</span>
+        </a>
+        <br>
+        Nicolas Olivier,
+        <a href="https://scholar.google.com.br/citations?user=UxjcjLYAAAAJ&hl=pt-BR&oi=ao">Hideaki Uchiyama</a>,
+        Masashi Mishima,        
+        <a href="https://scholar.google.com.br/citations?user=PYvmkT0AAAAJ&hl=pt-BR&oi=ao">Diego Thomas</a>, 
+        <a href="https://scholar.google.com.br/citations?user=fBsF3xcAAAAJ&hl=pt-BR&oi=ao">Rin-ichiro Taniguchi</a>,
+        <a href="https://cin.ufpe.br/~rar3/">Rafael Roberto</a>,
+        <strong>João Paulo Lima</strong>,
+        <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
+        <br>
+        <em>ICRA</em> 2018
       </td>
     </tr>
 
