@@ -42,7 +42,7 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
+                <h2>Selected Research</h2>
                 <p>
                   I'm interested in 3D computer vision, 3D tracking, and 3D reconstruction. Some papers are <span class="highlight">highlighted</span>.
                 </p>
@@ -52,7 +52,7 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-    <tr onmouseout="autolabel_stop()" onmouseover="autolabel_start()" bgcolor="#ffffd0">
+    <tr onmouseout="autolabel_stop()" onmouseover="autolabel_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='autolabel_image'><video  width=100% height=100% muted autoplay loop>
@@ -84,9 +84,49 @@
         <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
 
         <br>
-        <em>SIBGRAPI</em>, 2023
+        <em>SIBGRAPI</em> 2023
         <br>
         <a href="https://arxiv.org/abs/2308.04515">arXiv</a>
+      </td>
+    </tr>
+
+    <tr onmouseout="dvgopp_stop()" onmouseover="dvgopp_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='dvgopp_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/dvgopp.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/dvgopp.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function dvgopp_start() {
+            document.getElementById('dvgopp_image').style.opacity = "1";
+          }
+
+          function dvgopp_stop() {
+            document.getElementById('dvgopp_image').style.opacity = "0";
+          }
+          dvgopp_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="http://dx.doi.org/10.1016/j.cag.2023.05.027">
+      <span class="papertitle">DirectVoxGO++: Fast Neural Radiance Fields for Object Reconstruction
+</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.com.br/citations?user=uwQ71PUAAAAJ&hl=pt-BR">Daniel Perazzo</a>*,
+        <strong>João Paulo Lima</strong>,
+        <a href="https://lvelho.impa.br/">Luiz Velho</a>,        
+        <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
+
+        <br>
+        <em>Computers & Graphics</em> 2023, <em>SIBGRAPI</em> 2022
+        <br>
+        <a href="http://dx.doi.org/10.1016/j.cag.2023.05.027">C&G version</a> /
+        <a href="http://dx.doi.org/10.1109/SIBGRAPI55357.2022.9991779">SIBGRAPI version</a> /
+        <a href="https://github.com/danperazzo/dvgoplusplus">code</a>
       </td>
     </tr>
 
@@ -96,7 +136,7 @@
             <tr>
               <td style="padding:0px">
                 <br>
-                <p style="text-align:right;font-size:small;">
+                <p style="text-align:center;font-size:small;">
                   Design and source code from <a href="https://jonbarron.info/">Jon Barron's website</a>
                 </p>
               </td>
