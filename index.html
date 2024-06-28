@@ -561,6 +561,39 @@
       </td>
     </tr>
 
+    <tr onmouseout="pso_stop()" onmouseover="pso_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='pso_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/pso.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/pso.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function pso_start() {
+            document.getElementById('pso_image').style.opacity = "1";
+          }
+
+          function pso_stop() {
+            document.getElementById('pso_image').style.opacity = "0";
+          }
+          pso_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://doi.org/10.1016/j.cag.2018.09.011">
+      <span class="papertitle">Particle Swarm Optimization for 3D Object Tracking in RGB-D Images
+</span>
+        </a>
+        <br>
+        José dos Santos Júnior,
+        <strong>João Paulo Lima</strong>
+        <br>
+        <em>Computers & Graphics</em> 2018 <strong>(Best Paper Award at SVR 2018)</strong>
+      </td>
+    </tr>
+
     </tbody></table>
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
