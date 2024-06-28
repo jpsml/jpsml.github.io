@@ -855,6 +855,40 @@
       </td>
     </tr>
 
+    <tr onmouseout="sysmap_stop()" onmouseover="sysmap_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='sysmap_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/sysmap.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/sysmap.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function sysmap_start() {
+            document.getElementById('sysmap_image').style.opacity = "1";
+          }
+
+          function sysmap_stop() {
+            document.getElementById('sysmap_image').style.opacity = "0";
+          }
+          sysmap_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="http://dx.doi.org/10.1016/j.cag.2016.02.002">
+      <span class="papertitle">Tracking for Mobile Devices: A Systematic Mapping Study
+</span>
+        </a>
+        <br>
+        <a href="https://cin.ufpe.br/~rar3/">Rafael Roberto</a>,
+        <strong>João Paulo Lima</strong>,
+        <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
+        <br>
+        <em>Computers & Graphics</em> 2016
+      </td>
+    </tr>
+
     </tbody></table>
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
