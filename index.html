@@ -633,6 +633,45 @@
       </td>
     </tr>
 
+    <tr onmouseout="patchplanet_stop()" onmouseover="patchplanet_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='patchplanet_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/patchplanet.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/patchplanet.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function patchplanet_start() {
+            document.getElementById('patchplanet_image').style.opacity = "1";
+          }
+
+          function patchplanet_stop() {
+            document.getElementById('patchplanet_image').style.opacity = "0";
+          }
+          patchplanet_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="http://dx.doi.org/10.1109/sibgrapi.2018.00023">
+      <span class="papertitle">Patch PlaNet: Landmark Recognition with Patch Classification Using Convolutional Neural Networks
+</span>
+        </a>
+        <br>
+        Kelvin Cunha,
+        <a href="https://lomcin.github.io/">Lucas Maggi</a>,
+        <strong>João Paulo Lima</strong>,
+        <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>,
+        <a href="https://scholar.google.com.br/citations?user=ME11ED8AAAAJ&hl=pt-BR&oi=ao">Jonysberg Quintino</a>,
+        <a href="https://www.cin.ufpe.br/~fabio">Fabio da Silva</a>,
+        <a href="https://www.cin.ufpe.br/~alms/">André Santos</a>,
+        Helder Pinho
+        <br>
+        <em>SIBGRAPI</em> 2018
+      </td>
+    </tr>
+
     </tbody></table>
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
