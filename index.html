@@ -280,6 +280,46 @@
       </td>
     </tr>
 
+    <tr onmouseout="lyra_stop()" onmouseover="lyra_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='lyra_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/lyra.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/lyra.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function lyra_start() {
+            document.getElementById('lyra_image').style.opacity = "1";
+          }
+
+          function lyra_stop() {
+            document.getElementById('lyra_image').style.opacity = "0";
+          }
+          lyra_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="http://dx.doi.org/10.5220/0010842800003124">
+      <span class="papertitle">Generalizable Online 3D Pedestrian Tracking with Multiple Cameras
+</span>
+        </a>
+        <br>
+        Victor Lyra,
+        <a href="https://sites.google.com/view/isabella-de-andrade">Isabella de Andrade</a>, 
+        <strong>João Paulo Lima</strong>,
+        <a href="https://cin.ufpe.br/~rar3/">Rafael Roberto</a>,
+        João Marcelo Teixeira,
+        <a href="https://scholar.google.com.br/citations?user=PYvmkT0AAAAJ&hl=pt-BR&oi=ao">Diego Thomas</a>, 
+        <a href="https://scholar.google.com.br/citations?user=UxjcjLYAAAAJ&hl=pt-BR&oi=ao">Hideaki Uchiyama</a>,
+        <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
+
+        <br>
+        <em>VISAPP </em> 2022
+      </td>
+    </tr>
+
     </tbody></table>
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
