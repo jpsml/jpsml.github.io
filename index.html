@@ -889,6 +889,43 @@
       </td>
     </tr>
 
+    <tr onmouseout="depth_assisted_stop()" onmouseover="depth_assisted_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='depth_assisted_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/depth_assisted.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/depth_assisted.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function depth_assisted_start() {
+            document.getElementById('depth_assisted_image').style.opacity = "1";
+          }
+
+          function depth_assisted_stop() {
+            document.getElementById('depth_assisted_image').style.opacity = "0";
+          }
+          depth_assisted_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="http://dx.doi.org/10.1007/s00138-015-0740-8">
+      <span class="papertitle">Depth-Assisted Rectification for Real-Time Object Detection and Pose Estimation
+</span>
+        </a>
+        <br>
+        <strong>João Paulo Lima</strong>,
+        <a href="https://franciscosimoes.github.io/">Francisco Simões</a>,
+        <a href="https://scholar.google.com.br/citations?user=UxjcjLYAAAAJ&hl=pt-BR&oi=ao">Hideaki Uchiyama</a>,
+        <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>,
+        <a href="https://team.inria.fr/rainbow/team/eric-marchand/">Eric Marchand</a>
+        <br>
+        <em>Machine Vision and Applications</em> 2016
+      </td>
+    </tr>
+
+
     </tbody></table>
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
