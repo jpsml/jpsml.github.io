@@ -51,6 +51,76 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="meanteacher_stop()" onmouseover="meanteacher_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='meanteacher_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/meanteacher.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/meanteacher.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function meanteacher_start() {
+            document.getElementById('meanteacher_image').style.opacity = "1";
+          }
+
+          function meanteacher_stop() {
+            document.getElementById('meanteacher_image').style.opacity = "0";
+          }
+          meanteacher_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://jpsml.github.io/">
+      <span class="papertitle">Mean Teacher for Unsupervised Domain Adaptation in Multi-View 3D Pedestrian Detection
+</span>
+        </a>
+        <br>
+        <strong>João Paulo Lima</strong>,
+        <a href="https://scholar.google.com.br/citations?user=PYvmkT0AAAAJ&hl=pt-BR&oi=ao">Diego Thomas</a>,
+        <a href="https://scholar.google.com.br/citations?user=UxjcjLYAAAAJ&hl=pt-BR&oi=ao">Hideaki Uchiyama</a>,
+        <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
+        <br>
+        <em>SIBGRAPI</em> 2024 (to be published)
+      </td>
+    </tr>
+
+    <tr onmouseout="retrytrack_stop()" onmouseover="retrytrack_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='retrytrack_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/retrytrack.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/retrytrack.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function retrytrack_start() {
+            document.getElementById('retrytrack_image').style.opacity = "1";
+          }
+
+          function retrytrack_stop() {
+            document.getElementById('retrytrack_image').style.opacity = "0";
+          }
+          retrytrack_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://jpsml.github.io/">
+      <span class="papertitle">RetryTRACK: Recovering Misses in Multi-Camera 3D Pedestrian Tracking
+</span>
+        </a>
+        <br>        
+        <a href="https://sites.google.com/view/isabella-de-andrade">Isabella de Andrade</a>,
+        <strong>João Paulo Lima</strong>,
+        <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
+
+        <br>
+        <em>SIBGRAPI</em> 2024 (to be published)
+      </td>
+    </tr>
+
     <tr onmouseout="csepriors_stop()" onmouseover="csepriors_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -72,7 +142,7 @@
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://jpsml.github.io/">
+        <a href="https://doi.org/10.1016/j.cag.2024.104063">
       <span class="papertitle">Fast Direct Multi-Person Radiance Fields from Sparse Input with Dense Pose Priors
 </span>
         </a>
@@ -83,7 +153,7 @@
         <a href="https://scholar.google.com.br/citations?user=6YwOT_QAAAAJ&hl=pt-BR&oi=ao">Veronica Teichrieb</a>
 
         <br>
-        <em>Computers & Graphics</em> 2024, <em>SIBGRAPI</em> 2024 (to be published)
+        <em>Computers & Graphics</em> 2024, <em>SIBGRAPI</em> 2024
       </td>
     </tr>
 
