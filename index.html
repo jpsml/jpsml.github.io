@@ -93,6 +93,42 @@
       </td>
     </tr>
 
+    <tr onmouseout="wtdperazzo_stop()" onmouseover="wtdperazzo_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='wtdperazzo_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/wtdperazzo.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/wtdperazzo.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function wtdperazzo_start() {
+            document.getElementById('wtdperazzo_image').style.opacity = "1";
+          }
+
+          function wtdperazzo_stop() {
+            document.getElementById('wtdperazzo_image').style.opacity = "0";
+          }
+          wtdperazzo_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://jpsml.github.io/">
+      <span class="papertitle">A Study on Gaussian Splatting and Neural Fields
+</span>
+        </a>
+        <br>
+        <a href="https://scholar.google.com.br/citations?user=uwQ71PUAAAAJ&hl=pt-BR">Daniel Perazzo</a>,
+        <a href="https://sites.google.com/site/tiagonovellodebrito/">Tiago Novello</a>
+        <strong>João Paulo Lima</strong>,
+        <a href="https://lvelho.impa.br/">Luiz Velho</a>
+
+        <br>
+        <em>SIBGRAPI WTD</em> 2025 (to be published) <strong>(Best MSc Dissertation Award)</strong>
+      </td>
+    </tr>
+
     <tr onmouseout="meanteacher_stop()" onmouseover="meanteacher_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
